@@ -1,0 +1,164 @@
+.ajeab-bg-slider{  
+    background-color: #50d8d7;
+    background-image: linear-gradient(316deg, #50d8d7 0%, #923993 74%);
+    color: #000;
+}
+
+.navbar{
+  background-color: #5ca0f2;
+  background-image: linear-gradient(315deg, #5ca0f2 0%, #f5f7f6 74%);
+  
+}      
+
+.iphone_13{
+    height: 450px;
+
+}
+
+.ipad{
+    height: 450px;
+}
+
+.imac{
+    height: 450px;
+}
+
+.watch{
+    height: 155px;
+}
+
+.watch-1{
+    background-color: #ffdd59;
+}
+
+.shoes{
+    height: 155px;
+}
+
+.shoe_1{
+    background-color: #34e7e4;
+}
+.bag{
+    height: 155px;
+}
+
+.bags{
+    background-color: #0a3d62;
+}
+
+.card_shoes-1{
+    height: 215px;
+}
+
+.card_shoes-2{
+    height: 215px;
+}
+
+.card_shoes-3{
+    height: 215px;
+}
+
+.bag-1{
+    height: 327px;
+}
+
+.bag-2{
+    height: 327px;
+}
+
+.logo{
+   
+    width: 50px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 8px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-transform: capitalize;
+  }
+  
+  .button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #1289A7;
+  }
+  
+  .button2:hover {
+    background-color: #1289A7;
+    color: white;
+  }
+  
+  .button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid #079992;
+  }
+  
+  .button3:hover {
+    background-color: #079992;
+    color: white;
+  }
+  
+  .button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #67e6dc;
+  }
+  
+  .button4:hover {
+    background-color: #67e6dc;
+    color: white;
+  }
+  
+  .button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #F79F1F;
+  }
+  
+  .button5:hover {
+    background-color: #F79F1F;
+    color: white;
+  }
+  
+  .button6 {
+    background-color: white;
+    color: black;
+    border: 2px solid #D980FA;
+  }
+  
+  .button6:hover {
+    background-color: #D980FA;
+    color: white;
+  } 
+
+.Contact_1{
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+}
+
+.footer{
+    text-align: center;
+    padding: 15px;
+    font-weight: 16px;
+    
+}

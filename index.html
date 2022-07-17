@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajeab E-Commerce</title>
+    <!-- bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <!-- css link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- header start -->
+    <header>
+         <!-- nav start  -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <div class="container">
+                <a class="navbar-brand" href="#home">
+                    <img class="logo" src="images/logo_1.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Shoes">Shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Backpack">Backpack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contact Us">Contact Us</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- slider start -->
+        
+        <div class="container" id="home">
+            <div id="carouselExampleControls" class="carousel-slide" data-bs-ride="carousel" data-bs-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active " >
+                        <div class="row p-5 ajeab-bg-slider bg-gradient d-flex align-items-center ">
+                            <div class="col-7">
+                                <h1>iPhone 13 Pro Max </h1>
+                                <p>
+                                    The iPhone 13 Pro features four cameras: one front-facing camera and three back-facing cameras, including a telephoto, wide, and ultra-wide camera. The back-facing cameras all contain larger sensors than the iPhone 12 Pro, allowing for more light-gathering. The wide and ultra-wide also have larger apertures to capture more light and increase low-light performance. The ultra-wide camera also has autofocus for the first time.</p>
+                                <h1>1099$</h1>
+                                <a class="btn btn-primary" href="">Buy Now>></a>
+                            </div>
+                            <div class="col-5 iphone_13" >
+                                <img src="images/banner-images/530316-Product-1-I-637675027349450571_9a815240-5215-43ff-a315-4063e54ab42f_1080x-preview.png" class="d-block w-100" alt="iphone_13">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row p-5 ajeab-bg-slider bg-gradient d-flex align-items-center">
+                            <div class="col-7">
+                                <h1>iPad Air</h1>
+                                <p>
+                                    The iPad Air marked the first major design change for the iPad since the iPad 2; it has a thinner design that is 7.5 millimeters thick and has a smaller screen bezel similar to the iPad Mini. Apple reduced the overall volume for the iPad Air by using thinner components resulting in a 22% reduction in weight over the iPad 2. It retains the same 9.7-inch screen as the previous iPad model. The new front-facing camera is capable of video in 720p HD, includes face detection, and backside illumination.</p>
+                                <h1>879$</h1>
+                                <a class="btn btn-primary" href="">Buy Now>></a>
+                            </div>
+                            <div class="col-5 ipad" >
+                                <img src="images/banner-images/pexels-photo-37850868-preview.png" class="d-block w-100" alt="ipad">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row p-5 ajeab-bg-slider bg-gradient d-flex align-items-center">
+                            <div class="col-7">
+                                <h1>iMac</h1>
+                                <p>
+                                    Apple refreshed the iMac models. The smaller 21.5-inch model was updated with SSDs standard. The 27-inch model received 10th generation Intel chips, a T2 Security chip, a 1080p camera, studio-quality microphone, an option for nano-textured glass, as well as SSDs standard. The 27 inch model now has SSDs soldered to the motherboard, which means the storage is no longer replaceable, and in order to replace a hard drive the entire motherboard must be replaced and any data on the drive will be wiped.
+                                    On April 20, 2021, Apple announced redesigned iMacs with a 24-inch display, new colors(7), updated cameras, and the inclusion of the Apple M1 chip.</p>
+                                <h1>1699$</h1>
+                                <a class="btn btn-primary" href="">Buy Now>></a>
+                            </div>
+                            <div class="col-5  ">
+                                <img src="images/banner-images/Apple-iMac--770x4333-preview.png" class="d-block w-100 imac " alt="imac">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- main strt -->
+    <main>
+        <!-- categories -->
+        <section>
+            <div class="container my-5">
+                <h1 class="mb-3">Categories</h1>
+                <div class="row g-3">
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class=" rounded-3 d-flex align-items-center justify-content-around watch-1">
+                            <H1 class="text-white">Watch</H1>
+                            <img class="watch" src="images/categories/pexels-torsten-dettlaff-437037-removebg-preview.png" alt="apple_watch">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="rounded-3 d-flex align-items-center justify-content-around shoe_1">
+                            <H1 class="text-white">Shoes</H1>
+                            <img class="shoes" src="images/categories/pexels-melvin-buezo_2-2529148-removebg-preview.png" alt="shoes">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class= "rounded-3 d-flex align-items-center justify-content-around bags ">
+                            <H1 class="text-white">Bag</H1>
+                            <img class="bag" src="images/categories/pexels-jonathan-borba-3155047-removebg-preview.png" alt="bag">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- categories end -->
+
+        <!-- shoes start -->
+        <section>
+            <div class="container" id="Shoes">
+                <h1>Shoes</h1>
+                <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 row-cols-sm-1  g-4">
+                    <div class="col shadow">
+                        <div class="card h-100 border-0">
+                            <img src="images/shoes/371d90b9f9f4ce22cfa822b3432aa036preview.png" class="card-img-top card_shoes-1" alt="371d90b9f9f4ce22cfa822b3432aa036preview.png">
+                            <div class="card-body">
+                                <h3 class="card-title">Nike</h3>
+                                <p class="card-text">The company was founded on January 25, 1964, as "Blue Ribbon Sports", by Bill Bowerman and Phil Knight, and officially became Nike, Inc. on May 30, 1971. The company takes its name from Nike, the Greek goddess of victory.</p>
+                            </div>
+                            <div class="card-footer border-0">
+                                <button class="button button4">buy now</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col shadow">
+                        <div class="card h-100 border-0">
+                            <img src="images/shoes/nike-Black-Single-Shoe-Flyease-Pegasus-36-Shoes-preview.png" class="card-img-top card_shoes-2" alt="nike-Black-Single-Shoe-Flyease-Pegasus-36-Shoes-preview.png">
+                            <div class="card-body">
+                                <h3 class="card-title">Adidas</h3>
+                                <p class="card-text">The company was started by Adolf Dassler in his mother's house; he was joined by his elder brother Rudolf in 1924 under the name Gebrüder Dassler Schuhfabrik ("Dassler Brothers Shoe Factory").</p>
+                            </div>
+                            <div class="card-footer border-0">
+                                <button class="button button5">buy now</button>                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col shadow">
+                        <div class="card h-100 border-0">
+                            <img src="images/shoes/Swift_Run_Shoes_Green_BD7976_01_standard-preview.png" class="card-img-top card_shoes-3" alt="Swift_Run_Shoes_Green_BD7976_01_standard-preview.png">
+                            <div class="card-body">
+                                <h3 class="card-title">Puma</h3>
+                                <p class="card-text">Puma has been a public company since 1986, listed on the Frankfurt Stock Exchange. French luxury group Kering (formerly known as PPR) holds 9,8%, Kering's largest shareholder Groupe Artemis owns 29% of the share capital. </p>
+                            </div>
+                            <div class="card-footer border-0">
+                                <button class="button button6">buy now</button>                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- shoes end  -->
+
+        <!-- Bag start  -->
+        <section>
+            <div class="container my-5" id="Backpack">
+                <h1>Bags</h1>
+                <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-4">
+                    <div class="col shadow">
+                        <div class="card border-0 h-100">
+                            <img src="images/bags/ezgif-2-37ca988a07d2-preview.png" class="card-img-top bag-1" alt="ezgif-2-37ca988a07d2-preview.png">
+                            <div class="card-body">
+                                <h3 class="card-title">Nike</h3>
+                                <p class="card-text">A bodypack is a backpack fitted with one or more pockets that are suspended on the wearer's chest and loaded in such a way that the load in the front and the load in the back are close to equal. </p>
+                            </div>
+                            <div class="card-footer border-0 ">
+                                <button class="button button1">buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col shadow">
+                        <div class="card h-100 border-0">
+                            <img src="images/bags/ADPE_132146792405655963896JC6su8W-preview.png" class="card-img-top bag-2" alt="ADPE_132146792405655963896JC6su8W-preview.png">
+                            <div class="card-body">
+                                <h3 class="card-title">Safari </h3>
+                                <p class="card-text">Safari. What the Swahili call “journey”. And, every journey brings with it new experiences. A potpourri of sights, sounds and colours that captivate your senses and make their way to your album of memories. It is these memories that have inspired our Safari bags. </p>
+                            </div>
+                            <div class="card-footer border-0 ">
+                                <button class="button button2">buy now</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col shadow">
+                        <div class="card h-100 border-0">
+                            <img src="images/bags/bag-3.png" class="card-img-top bag-3" alt="bag-3.png">
+                            <div class="card-body">
+                                <h3 class="card-title">American Tourister </h3>
+                                <p class="card-text">American Tourister is a brand of luggage owned by Samsonite. Brothers Sol and Irving Koffler founded American Luggage Works in Providence, United States in 1933. American Tourister was acquired by Astrum International.</p>
+                            </div>
+                            <div class="card-footer border-0">                             
+                                <button class="button button3">buy now</button>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact start  -->
+
+        <section>
+            <div class="container" id="Subscribe">
+
+                <div class="row Contact_1">
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="images/banner-images/contact-image-preview.png" alt="">
+                    </div>
+                    <div class="col-md-6 shadow">
+                        <div class="container">
+                            <h3 class="text-center">Contact Us</h3>
+                            <form>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control p-2" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Enter Your Email Address">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control p-2" id="exampleInputPassword1"
+                                        placeholder="enter your name">
+                                </div>
+                                <textarea class="w-100 p-4" name="" id="" rows="5"></textarea>
+                                <br>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer start -->
+
+    <footer class="footer">
+        All rights reserved by @Hasan Mahmud
+    </footer>
+
+          <!-- footer end -->
+
+    <!-- stript tag for javascript -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
